@@ -1,11 +1,13 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+
 <header class="header">
   <nav class="navbar container">
     <a  class="brand" href="">Pocket Prose</a>
-    <div class="serach">
-      <form class="search-form">
-        <input type="text" name="search" class="search-input" placeholder="Search Title, Author, or Tag">
-        <button type="submit" class="search-submit" disabled><i class="bx bx-search"></i></button>
-      </form>
-    </div>
+    <form role="search" method="get" action="">
+      <div class="input-container">
+        <input type="search" class="search-input" value="" name="s" placeholder="Search by Title, Author, or Genre" />
+        <button type="submit" class="search-submit" name="submit"><i class="material-icons">search</i></button>
+      </div><!-- input-container -->
+    </form><!-- searchform -->
   </nav>
 </header>
