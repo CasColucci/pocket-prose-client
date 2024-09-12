@@ -54,5 +54,6 @@ section {
   padding: 10px 20px;
   border: 0;
   outline: none;
+  min-width: 400px;
   box-shadow: inset 0 -1px 1px -1px #CCCCCC, inset 0 1px 1px -1px #CCCCCC, inset 1px 0 1px -1px #CCCCCC;
 }
