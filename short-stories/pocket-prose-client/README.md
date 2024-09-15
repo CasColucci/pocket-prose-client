@@ -1,3 +1,24 @@
+# PROJECT OUTLINE
+- Client > Angular 18
+- API > ASP.NET (running through vscode, not vs, linux limitation)
+- PostgreSQL with pg admin 4
+    - tables are set up as follows:
+    - authors
+        - authorid (PK, identity, int)
+        - authorname (text)
+    - genre (ref table)
+        - genreid (PK, identity, int)
+        - genretitle (text)
+    - stories 
+        - storyid (PK, identity, int)
+        - storytitle (text)
+        - storypostdate (date)
+        - authorid (FK, authors table, int)
+    - storydetails
+        - storydetailid (PK, identity, int)
+        - storyid (FK, stories, int)
+        - storytext (text, the actual text of the story)
+
 # PocketProseClient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
