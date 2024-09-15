@@ -1,8 +1,7 @@
 # PROJECT OUTLINE
 - Client > Angular 18
 - API > ASP.NET (running through vscode, not vs, linux limitation)
-- PostgreSQL with pg admin 4
-    - tables are set up as follows:
+- PostgreSQL with pg admin 4. The tables are set up as follows:
     - authors
         - authorid (PK, identity, int)
         - authorname (text)
